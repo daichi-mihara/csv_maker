@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "csv-maker3"
+version = "0.1.0"
+description = "you use this folder to make csv file"
+authors = ["daichi-mihara <daichi.mihara@geniee.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "2.2.2"
+numpy = "2.0.0"
+openpyxl = "^3.1.5"
+isort = "^5.13.2"
+black = "^24.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
